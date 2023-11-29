@@ -1,0 +1,30 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+.menufs{
+    font-size: 3rem;
+}
+#btnlogin{
+    background-color: aliceblue;
+    border: none;
+}
+.tetele{
+    position: relative;
+}
+.btncloss{
+    position: relative;
+    left: 26rem;
+    top: -3rem;
+}
+.displaymenu{
+    display:flex;
+    gap: 2rem;
+}
+@media screen and (max-width:991px) {
+    .displaymenu{
+        display:flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

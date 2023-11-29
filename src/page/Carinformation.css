@@ -1,0 +1,92 @@
+#titlebar h3{
+    color: #0F0F0F;
+    font-family: Figtree;
+    /* font-size: 48px; */
+    font-size:clamp(40px,10vw,56px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 62.4px */
+    letter-spacing: -0.96px;
+    padding:0 1rem;
+}
+.discriptionofHead p{
+    color: #0F0F0F;
+    text-align: center;
+    font-family: Figtree;
+    font-size: clamp(16px,10vw,18px);;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.36px;
+}
+.discriptionofHead p{
+    width: 720px;
+    padding: 0 4rem
+}
+.discriptionofHead{
+    display: flex;
+    justify-content: center;
+}
+.headerContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.carimg img{
+    width: 314px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 18px;
+}
+/* .carimg :hover{
+    scale: 1.2rem;
+} */
+.cardetails{
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    width: 337px;
+    height: 520px;
+    flex-shrink: 0;
+}
+.imgcontent{
+    display: flex;
+    justify-content: center;
+}
+.carname{
+    color: #000;
+    font-family: Figtree;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.prizedata{
+    color: #000;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+.day{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.speedLabel{
+    font-size: 2rem;
+}
+.btnSearch:focus {
+    background-color:black;
+    color:white;
+}
+@media screen and (max-width:466px){
+    #loding img{
+        width:100%;
+        height:100%;
+    }
+}

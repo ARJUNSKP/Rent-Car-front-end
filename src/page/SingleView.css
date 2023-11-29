@@ -1,0 +1,91 @@
+.labelHeading h1{
+    color: #0F0F0F;
+    font-family: Figtree;
+    font-size:clamp(40px,10vw,56px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 62.4px */
+    letter-spacing: -0.96px;
+}
+.labelHeading{
+    display:flex;
+    justify-Content:center;
+    flex-direction: column;
+}
+.labelHeading h4{
+    
+    color: #0F0F0F;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.36px;
+}
+.heading-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv{
+    width:60%;
+}
+.labelHeading h3{
+    color: #000;
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+}
+.carImagedis{
+    border-radius: 24px;
+    background: #F5F5F5;
+    flex-shrink: 0;
+}
+.labelHeading-btn{
+    display:flex;
+    justify-content:'center'
+}
+.carImagedis img{
+    width:400px;
+    height:auto;
+    border-radius:24px;
+}
+.carImagedis{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.modelBox{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.inputBox{
+    border-radius:10px;
+}
+@media screen and (max-width:457px){
+    .mainDiv{
+        width:80%;
+    }
+}
+@media screen and (max-width:575px){
+    .carImagedis img{
+        width:250px;
+        height:auto;
+    }
+}
+@media screen and (max-width:1096px){
+    .carImagedis img{
+        width:400px;
+        height:auto;
+    }
+}
+@media screen and (max-width:412px){
+    .carImagedis img{
+        width:330px;
+        height:auto;
+    }
+}
